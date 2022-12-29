@@ -1,0 +1,100 @@
+header {
+  margin: 0;
+  padding: 0;
+}
+header .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  padding: 10px 0 0;
+}
+
+header .links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+
+header ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+header ul a:hover {
+  text-decoration: underline;
+  color: rgba(0, 0, 0, 0.8);
+}
+#Pricing .container {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#Pricing .priceCard {
+  max-width: 300px;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+#Pricing .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+#Pricing .head {
+  font-size: 56px;
+  font-weight: 300;
+}
+
+#Pricing .text {
+  max-width:700px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+footer {
+  padding:30px 0;
+}
+
+footer .image {
+  height: 24px;
+}
+
+footer .rows {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  gap: 30px;
+  margin: 0 auto;
+  text-align: left;
+  width: max-content;
+  padding:20px;
+}
+
+
+footer .row .title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+footer .row a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration-color: rgb(108, 117, 125);
+  color: rgb(108, 117, 125);
+}
+
+footer .row a:hover {
+  text-decoration: underline;
+}
